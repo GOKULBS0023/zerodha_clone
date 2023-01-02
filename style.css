@@ -1,0 +1,334 @@
+body{
+	margin: 0;
+	color: #413F42;
+	font-family: 'Inter', sans-serif;
+}
+.container{
+	width: 84%;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+a{
+	text-decoration: none;
+	color: #413F42;
+}
+h2{
+	font-size: 45px;
+	font-weight: 500;
+	color: #413F42;
+	margin: 0;
+	padding: 0;
+}
+h3{
+	color: #413F42;
+	font-size: 33px;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+}
+button{
+	margin-top: 20px;
+	background: #387ed1;
+	color: #fff;
+	font-size: 20px;
+	padding: 12px 32px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+button:hover{
+	background: #3C4048;
+}
+/*Header Section*/
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar_logo{
+	width: 24%;
+	margin: auto;
+	padding: 20px 0;
+}
+.navbar_logo img{
+	width: 140px;
+	height: auto;
+}
+.navbar_contents{
+	display: flex;
+	justify-content: right;
+	width: 73%;
+	padding: 20px 0;
+}
+.navbar_contents a{
+	padding: 0px 20px;
+	font-size: 14px;
+	color: #73777B;
+	transition: 0.33s ease;
+}
+.navbar_contents a:hover{
+	color: dodgerblue;
+	transition: 0.33s ease;
+}
+.navbar_contents i{
+	color: #000;
+}
+/*Rank Section*/
+#rank_section{
+	margin-top: 100px;
+}
+#rank_section .row{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.rank_img{
+	height: 260px;
+	width: auto;
+	margin-bottom: 50px;
+}
+.rank_img img{
+	height: 100%;
+}
+
+#rank_section p{
+	font-size: 20px;
+	color: #383836;
+}
+
+
+/*Rewards section*/
+#rewards_section{
+	margin: 120px 0px;
+}
+#rewards_section .rewards_box_1{
+	width: 43%;
+	margin: 0 auto;
+}
+.rewards_box_1 img{
+	width: 90%;
+}
+.rewards_box_2{
+	width: 45%;
+	margin: 0 auto;
+}
+
+.rewards_box_2 p{
+	line-height: 30px;
+	color: #413F42;
+}
+.rewards_box_2 .reward_list{
+	display: flex;
+	line-height: 30px;
+	color: #413F42;
+}
+.rewards_img{
+	padding-top: 30px;
+	width: 100%;
+}
+.rewards_img img{
+	width: 100%;
+}
+/*Universe Section*/
+#universe_section{
+	margin: 30px 0;
+}
+#universe_section .row{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#universe_section p{
+	padding-top: 10px;
+	text-align: center;
+	max-width: 45%;
+	font-size: 20px;
+	line-height: 35px;
+	color: #413F42;
+}
+#universe_section .universe_img{
+	margin: 15px 0px 40px;
+	width: 90%;
+}
+#universe_section a{
+	font-size: 15px;
+	color: dodgerblue;
+	font-weight: 500;
+	transition: 0.33s ease;
+}
+#universe_section a:hover{
+	color: #413F42;
+	transition: 0.33s ease;
+}
+#universe_section span{
+	padding-left: 7px;
+	transition: 0.33s ease;
+}
+.universe_img img{
+	width: 100%;
+}
+/*Pricing Section*/
+#pricing_section{
+	margin: 100px 0;
+}
+#pricing_section .pricing_box{
+	width: 47%;
+	margin: 0 auto;
+}
+.pricing_box_1 p{
+	max-width: 90%;
+	line-height: 30px;
+}
+.pricing_box_1 a{
+	color: dodgerblue;
+}
+.pricing_box_1 a:hover{
+	color: #413F42;
+}
+.pricing_box_2{
+	display: flex;
+	text-align: center;
+}
+.pricing_box_2 .mini_box{
+	border-radius: 3px;
+	width: 40%;
+	padding: 4%;
+	border: 1px solid darkgray;
+}
+.pricing_box_2 .box_2{
+	border-left: none;
+}
+.pricing_box_2 h2{
+	padding-bottom: 10px;
+}
+.pricing_box_2 p{
+	color: #413F42;
+}
+/*Varsity Section*/
+#varsity_section{
+	margin: 100px 0;
+}
+#varsity_section .var_img{
+	width: 35%;
+	margin: auto auto auto 0;
+}
+.var_img img{
+	width: 96%;
+	margin: 2%;
+}
+.var_content{
+	width: 50%;
+	margin: auto 0;
+	display: flex;
+	flex-direction: column;
+}
+.var_content h4{
+	font-size: 25px;
+	font-weight: 500;
+	padding: 0px;
+	margin: 5px 0;
+}
+.var_content p{
+	font-size: 16px;
+	line-height: 30px;
+}
+.var_content a{
+	color: dodgerblue;
+}
+/*Account Section*/
+#account_section {
+	margin: 100px 0;
+}
+#account_section .row{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#account_section h3{
+	padding-bottom: 10px;
+}
+/*Footer section*/
+footer{
+	padding-top: 20px;
+	background: #FAFAFB;
+	border-top: 1px solid #eee;
+}
+footer #footer_top{
+	margin: 10px 0 50px;
+}
+footer .details{
+	width: 22%;
+	margin: 0px auto;
+}
+footer .details{
+	display: flex;
+	flex-direction: column;
+}
+footer .details .footer_logo{
+	width: 70%;
+	margin: 20px auto 20px 0;
+}
+.footer_logo img{
+	width: 75%;
+	margin: auto auto 0 auto;
+}
+.footer_copywrite {
+	padding-bottom: 25px;
+}
+.social_media a{
+	font-size: 18px;
+	padding-right: 20px;
+	transition: 0.33s ease;
+}
+.social_media a:hover{
+	color: dodgerblue;
+	transition: 0.33s ease;
+}
+footer .footer_content{
+	width: 20%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+.footer_content p{
+	font-size: 18px;
+}
+.footer_content a{
+	padding-bottom: 12px;
+	font-weight: 500;
+	transition: 0.35s ease;
+}
+.footer_content a:hover{
+	color: dodgerblue;
+	transition: 0.35s ease;
+}
+.footer_terms small{
+	font-size: 11px;
+}
+.footer_terms small a{
+	color: dodgerblue;
+}
+.footer_terms small a:hover{
+	color: #000;
+}
+.footer_links .row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.footer_links a{
+	font-size: 13px;
+	padding: 7px 12px 20px;
+}
+.footer_links a:hover{
+	color: dodgerblue;
+}
